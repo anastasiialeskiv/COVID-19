@@ -130,6 +130,9 @@ My next step would be to continue with developing model for better result. Use m
 
 
 ├── .gitignore
+
 ├── Notebook.ipynb
+
 ├── README.md
+
 └── presentation.pdf
