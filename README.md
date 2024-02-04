@@ -74,16 +74,16 @@ Gender does not really affect the number of death.
 
 ![image](https://github.com/anastasiialeskiv/COVID-19/assets/124845922/960efccf-9af8-4f64-8f1b-6f58053af783)
 
-Tabacco users are more likely to die from COVIS-19
+Tabacco users are more likely to die from COVID-19
 
 ![image](https://github.com/anastasiialeskiv/COVID-19/assets/124845922/1c39e706-0559-436d-a536-237bbe76e439)
 
-Patients with diabetes are more likely to die from COVIS-19
+Patients with diabetes are more likely to die from COVID-19
 
 ![image](https://github.com/anastasiialeskiv/COVID-19/assets/124845922/4d68c3ed-6ca2-4470-bc5f-3c214778b57e)
 
 
-Patients with obesity are more likely to die from COVIS-19
+Patients with obesity are more likely to die from COVID-19
 
 # Modelind
 
@@ -111,7 +111,7 @@ In my case the classifier can almost perfectly distinguish between all the Posit
 
 # Conclusion
 
-The whole dataset was split into 80/20 train/holdout. Predictions on 20% holdout were limited till the end. After I finished this project I came to the conclusion that people who are getting COVID are at a very high risk of getting pneumonia. Tobacco users are more likely to die from COVIS-19.Patients with diabetes are more likely to die from COVIS-19.Patients with obesity are more likely to die from COVIS-19 Age also affects the number of people who died from COVID-19. It's very rarely happens at a young age it's mostly at the age of 50-80 y.o
+The whole dataset was split into 80/20 train/holdout. Predictions on 20% holdout were limited till the end. After I finished this project I came to the conclusion that people who are getting COVID are at a very high risk of getting pneumonia. Tobacco users are more likely to die from COVIS-19.Patients with diabetes are more likely to die from COVID-19.Patients with obesity are more likely to die from COVID-19 Age also affects the number of people who died from COVID-19. It's very rarely happens at a young age it's mostly at the age of 50-80 y.o
 
 For modeling: I used logistic regression, random forest, decision tree, stacking resembling for setting on random forest as the model with the best cross-validation performance, random forest feature importance ranking I used for guiding the choice and order of variables to be included as the model underwent refinement. I used Logistic Regression to predict the risk of getting COVID-19 virus with 91% accuracy and with F1 Score for Class 0: Approximately 0.9143. The F1 score is a useful metric, especially in imbalanced datasets, as it considers both false positives and false negatives. A higher F1 score indicates better performance, considering both precision and recall.
 
