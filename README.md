@@ -97,6 +97,9 @@ False Positive(we predict our patient has risk of death from COVID-19 and patien
 
 False Negative(we predict our patient does not have risk of death from COVID-19 and patient actually has it)-1063
 
+![image](https://github.com/anastasiialeskiv/COVID-19/assets/124845922/9f84ed81-5ce1-4b24-9e3b-ddc8e0ca7464)
+
+Feature importance is a relative measure that helps identify which features have a stronger impact on the model's predictions. The higher the importance score, the more influential the feature. In this case we can see what affects the number of death from COVID-19. We shoud pay attention to type of care the patient received in the unit, age, whether the patient was connected to the ventilator,whether the patient already have air sacs inflammation or not,whether the patient has diabetes or not.
 
 # Evaluation
 
@@ -107,6 +110,7 @@ Plotting the ROC Curve: The ROC curve is plotted using Matplotlib, with the diag
 The ROC curve is a useful visualization for understanding the model's discrimination ability across different threshold settings.
 
 In my case the classifier can almost perfectly distinguish between all the Positive and the Negative class points with accuracy 91%
+
 
 
 # Conclusion
